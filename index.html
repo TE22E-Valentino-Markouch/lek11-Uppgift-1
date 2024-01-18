@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="main.js"></script>
+    <title>Blog motor</title>
+</head>
+<body onload="read_from_ls()">
+    
+    <aside>
+        <label> Rubrik <input type="text" id="rubrik"> </label>
+        <label>Artikeltext:</label>
+        <textarea id="text">        </textarea>
+        <button onclick="add_text()">Lägg till </button>
+    </aside>
+    <main>
+        
+    </main>
+    <button onclick="toogle_mode()">Ändra Mörkt/Ljust</button>
+    <button onclick="get_from_ls()">Hämta frpn ls</button>
+    <button onclick="delete_ls()">Delete ls</button>
+    
+</body>
+</html>
